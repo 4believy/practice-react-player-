@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Chicago';
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: #000000 0 0 15px;
+    src: url('https://files.persona.co/1/Chicago_bold_italic.woff') format('woff');
+    color: rgba(255, 255, 255, 0.85);
+    background-color: black;
+    background-image:url(personared.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.App {
+    padding: 30px;
+    margin: 20px;
+}
+.ui.card.main-container {
+    margin: 0 auto;
+}
+
+
+.content {
+    width: 60vw;
+    margin-bottom: 20px;
+}
+
+.content:hover {
+    cursor: pointer;
+}
+
+.button-container {
+    margin: 20px 0 20px 50px;
+    text-align: left ;
+    color: #000;
+}
+
+.header {
+    text-align: center;
+}
+
+.info-container {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.current-song {
+    margin-bottom: 10px;
+}
+
+.playlist {
+    margin-left: 10px;
+}
+
+button {
+    display: inline-block;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+
+button:hover { background: rgba(255, 255, 255, 0.2); }
