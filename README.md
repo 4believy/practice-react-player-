@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+assignment for university practice, a simple music player using react
 
 ## Available Scripts
 
